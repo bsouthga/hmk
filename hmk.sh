@@ -12,6 +12,9 @@ hmk() {
     clean)
       clean
       ;;
+    open)
+      openPdf
+      ;;
     *)
       helpHmk
       ;;
@@ -19,8 +22,12 @@ hmk() {
 }
 
 helpHmk() {
-  echo "invalid hmk command $CMD, must be 'init', 'make', or 'clean'"
+  echo "hmk: invalid command $CMD"
   exit 1
+}
+
+openPdf() {
+  open ./homework.pdf
 }
 
 init() {
