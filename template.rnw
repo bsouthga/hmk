@@ -65,6 +65,7 @@
 \usepackage{amscd}
 \usepackage{amssymb}
 \usepackage{latexsym}
+\usepackage{enumerate}
 
 \begin{document}
 
@@ -82,9 +83,9 @@
   \noindent
   {\bf Problem 1.} Uniform Distribution on a Triangle:
 
-  \begin{itemize}
-    \item[a.] What is the marginal distribution of X?
-  \end{itemize}
+  \begin{enumerate}[a.]
+    \item What is the marginal distribution of X?
+  \end{enumerate}
 
   \newpage
   \noindent
