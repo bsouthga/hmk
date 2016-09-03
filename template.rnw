@@ -67,25 +67,26 @@
 \usepackage{latexsym}
 
 \begin{document}
-\begin{center}
-{\large
-\textbf{\sc Homework }}\\
-\end{center}
-\vspace{0.03in}
-\leftline{{\bf Name: Ben Southgate}}
-\rightline{\today}
-\vspace*{.02in}
-\hrule
-\vspace*{.2in}
 
-\noindent
-{\bf Problem 1.} Uniform Distribution on a Triangle:
+  \begin{center}
+    {\large \textbf{\sc Homework }}\\
+  \end{center}
 
-\begin{itemize}
-  \item[a.] What is the marginal distribution of X?
-\end{itemize}
+  \vspace{0.03in}
+  \leftline{{\bf Name: Ben Southgate}}
+  \rightline{\today}
+  \vspace*{.02in}
+  \hrule
+  \vspace*{.2in}
 
-\newpage
-\noindent
+  \noindent
+  {\bf Problem 1.} Uniform Distribution on a Triangle:
+
+  \begin{itemize}
+    \item[a.] What is the marginal distribution of X?
+  \end{itemize}
+
+  \newpage
+  \noindent
 
 \end{document}
