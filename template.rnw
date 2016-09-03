@@ -1,0 +1,91 @@
+\documentclass[11pt]{article}
+
+\marginparwidth 0pt
+\oddsidemargin  10pt
+\evensidemargin  10pt
+\marginparsep 0pt
+\textwidth 6.5 in
+\textheight 9.5 in
+\voffset=-0.5 cm
+\topmargin -0.5in
+\renewcommand{\baselinestretch}{1.2}
+\parskip=3pt
+%\parindent=0pt
+\outer\def\pa#1\par{\vskip 0pt plus .1\vsize
+\penalty-100
+\vskip 0pt plus -.1\vsize \medskip\vskip\parskip
+\leftline{\em#1}\nobreak\smallskip\noindent}
+\setlength{\textheight}{9in}
+\setlength{\textwidth}{6.5in}
+
+
+\newcommand{\weakto}{\stackrel{\cal D}{\longrightarrow}}
+\newcommand{\E}{{\mathrm E}}
+\newcommand{\var}{\operatorname{Var}}
+\newcommand{\cov}{\operatorname{Cov}}
+\newcommand{\bF}{{\bf F}}
+\newcommand{\ba}{{\bf a}}
+\newcommand{\greekbold}[1]{\mbox{\boldmath $#1$}}
+\newcommand{\betabf}{\greekbold{\beta}}
+\newcommand{\omegabf}{\greekbold{\omega}}
+\newcommand{\Sigmabf}{\greekbold{\Sigma}}
+\newcommand{\epsilonbf}{\greekbold{\epsilon}}
+\newcommand{\thetabf}{\greekbold{\theta}}
+\newcommand{\mubf}{\greekbold{\mu}}
+\newcommand{\psibf}{\greekbold{\psi}}
+
+\newcommand{\s}[0]{\vspace{1em}}
+\newcommand{\p}[1]{\left( #1 \right)}
+\newcommand{\q}[0]{\quad}
+\newcommand{\pb}[1]{\big( #1 \big)}
+\newcommand{\pbb}[1]{\bigg( #1 \bigg)}
+\newcommand{\prt}[1]{\s\textbf{#1}}
+\newcommand{\ra}[0]{\Rightarrow}
+\newcommand{\xra}[1]{\xrightarrow{#1}}
+\newcommand{\brk}[1]{\left[ #1 \right]}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\crl}[1]{\left\{ #1 \right\}}
+\newcommand{\crlb}[1]{\big\{ #1 \big\}}
+\newcommand{\qaq}[0]{\quad\Rightarrow\quad}
+\newcommand{\qq}[0]{\quad\quad}
+\newcommand{\ceil}[1]{\lceil #1 \rceil}
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+\newcommand{\real}{{\mathbb R}}
+\newcommand{\spc}{{\mathcal S}}
+\newcommand{\Xcal}{{\mathcal X}}
+
+\newenvironment{answer}{\paragraph{Answer:}}{\hfill$\square$}
+
+
+
+
+
+%\usepackage{apalike}
+\usepackage{amsmath}
+\usepackage{amscd}
+\usepackage{amssymb}
+\usepackage{latexsym}
+
+\begin{document}
+\begin{center}
+{\large
+\textbf{\sc Homework }}\\
+\end{center}
+\vspace{0.03in}
+\leftline{{\bf Name: Ben Southgate}}
+\rightline{\today}
+\vspace*{.02in}
+\hrule
+\vspace*{.2in}
+
+\noindent
+{\bf Problem 1.} Uniform Distribution on a Triangle:
+
+\begin{itemize}
+  \item[a.] What is the marginal distribution of X?
+\end{itemize}
+
+\newpage
+\noindent
+
+\end{document}
