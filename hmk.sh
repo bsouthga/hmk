@@ -35,7 +35,6 @@ make() {
   pdflatex ./homework.tex
   cd ../
   mv ./src/homework.pdf ./homework.pdf
-  open ./homework.pdf
 }
 
 clean() {
